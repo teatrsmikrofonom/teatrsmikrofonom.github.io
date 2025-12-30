@@ -66,4 +66,24 @@
         
       </div>
       </div>
+        <script>
+      const downloadUrl = (url, file) => {
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = file;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+      };
+      switch (new URLSearchParams(location.search).get("giftcode")) {
+        case "Get2026Kalendar":
+          downloadUrl(
+            "teatrsmikrofonom.github.io/files/img/photo_2025-12-30_20-23-38.jpg",
+            "Театральный календарь на 2026 год.jpg",
+          );
+          break;
+        default:
+console.log("Нет доступных подарков для получения в соответсвии с кодом")
+      }
+    </script>
 </body>
