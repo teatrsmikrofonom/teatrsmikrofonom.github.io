@@ -231,6 +231,8 @@ a.linka:hover {
         font-weight: normal;
           text-decoration: none;
           transition: 0.3s linear;
+            width: 100%;
+        align-items: center;
     }
     .button:hover {
           background: var(--button-hov-bg)!important;
