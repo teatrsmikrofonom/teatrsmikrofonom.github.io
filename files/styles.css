@@ -154,13 +154,13 @@ div.content_group.contributors-list > .button.contributor-type1:hover > img {
 
 a.linka {
     user-select: none;
-  border-radius: 10px;
-  padding: 1px 3px;
-  background: #ddd5ec;
-  color: #754ec3;
-  font-weight: bold;
-  text-decoration: none;
-  transition: 0.3s linear;
+    border-radius: 10px;
+    padding: 1px 3px;
+    background: #ffd5d5;
+    color: #9b6363;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s linear;
 }
 
 a.linka:selection {
@@ -168,10 +168,9 @@ a.linka:selection {
 }
 
 a.linka:hover {
-  background: #754ec3;
+  background: #9b6363;
   color: #fff;
 }
-
         .link:hover {
             border-color: #8992b1;
         background-color: #e3ebf1;
