@@ -102,20 +102,21 @@ div.content_group.contributors-list > .button.contributor-type1:hover > img {
         }
 
         div.information {
-            border-color: #575e75;
-            border-width: 3.5px;
-            border-radius: 10px;
-            background-color: #fff;
-            transition: 0.3s;
-            border-style: solid;
-            width: calc(30% - 20px);
-            min-width: 250px;
-            height: auto;
-            min-height: 50px;
-            margin: 10px; 
-            padding: 20px; 
-            box-sizing: border-box;
-        }
+    background-size: cover;
+    border-color: #0000005e;
+    border-width: 3.5px;
+    border-radius: 10px;
+    background-image: url(/files/img/фончик.png);
+    border-style: solid;
+    width: calc(30% - 20px);
+    min-width: 250px;
+    height: auto;
+    min-height: 50px;
+    color: #fffefe;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
 
         a { text-decoration: none; }
@@ -147,7 +148,9 @@ div.content_group.contributors-list > .button.contributor-type1:hover > img {
 
         div.part2 {
             width: 100%;
-            background-color: #ff9273;
+            background-image: url(https://teatrsmikrofonom.github.io//files/img/фончик.png);
+            background-size: cover;
+            background-repeat: repeat-x;
             height: auto;
             color: #f5f5f5;
         }
